@@ -1,0 +1,62 @@
+NAME : VVV-ConcreteNetwork-n24
+COMMENT : Self-created CVRP case for SCG-CPAC Concrete Logistics (Central Batching Plant to 24 Construction Sites)
+TYPE : CVRP
+DIMENSION : 25
+EDGE_WEIGHT_TYPE : EUC_2D
+CAPACITY : 100
+NODE_COORD_SECTION
+1 0 0
+2 2 4
+3 5 8
+4 11 15
+5 14 20
+6 4 -4
+7 8 -8
+8 12 -12
+9 17 -16
+10 -4 7
+11 -8 13
+12 -12 19
+13 5 3
+14 10 5
+15 15 7
+16 -5 -5
+17 -10 -9
+18 -15 -13
+19 6 -3
+20 11 -5
+21 16 -7
+22 -6 3
+23 -11 5
+24 -16 7
+25 0 -9
+DEMAND_SECTION
+1 0
+2 15
+3 25
+4 35
+5 28
+6 18
+7 22
+8 32
+9 35
+10 15
+11 20
+12 38
+13 24
+14 16
+15 30
+16 22
+17 34
+18 36
+19 15
+20 35
+21 25
+22 18
+23 22
+24 30
+25 25
+DEPOT_SECTION
+1
+-1
+EOF
